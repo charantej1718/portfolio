@@ -5,6 +5,7 @@ import ParticlesBg from "./components/ParticlesBg";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import "./App.css";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );
